@@ -1,0 +1,127 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+
+	font-family: 'Stint Ultra Condensed', cursive;
+	font-size: 20px;
+	overflow-x: hidden;
+	background-image: url("../images/background.jpg"); 
+	background-size: cover;
+
+
+}
+
+.logo{
+
+	float: left;
+	height: 120px;
+	width: auto;
+	margin-top: 10px;
+}
+
+.row{
+
+    height:	120px;
+	width: auto;
+	margin-top: 10px;
+}
+
+.main-nav{
+
+	float: right;
+	margin-top: 40px;
+	margin-right:20px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	font-size: 25px;
+	padding: 20px 20px;
+}
+
+.main-nav li a{
+	padding: 5px 5px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; /* that is 90% of default body font size ie. 90*20/100=18px.To make it responsive always use % */
+	font-weight: 100;
+
+}
+
+.main-nav li a:hover{
+	border-bottom: 2px solid springgreen;
+}
+
+
+.front-interact{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+h1{
+	color: yellow;
+	font-size:240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: :20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.click-to-watch
+{
+
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: :none;
+	background-color: transparent;
+	color: greenyellow;
+	border: 1px solid springgreen;
+	font-size:120%;
+}
+
+
+.click-to-trailer{
+	background-color: transparent;
+	padding: 10px 30px;
+	color: greenyellow;
+	border: 1px solid springgreen;
+	font-size:120%;
+}
+
+.click-to-watch:hover{
+
+	background-color: brown;
+}
+
+.click-to-trailer:hover{
+	background-color: brown;
+}
+
+.color-change{
+
+	animation: colorchangenow 1s infinite;
+  
+}
+@keyframes colorchangenow{
+	0%{color: darkred;}
+	25%{color: gainsboro;}
+	50%{color: ghostwhite;}
+	100%{color: ivory;}
+}
